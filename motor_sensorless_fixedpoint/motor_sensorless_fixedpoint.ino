@@ -182,7 +182,7 @@ void updateControl()
       nn = 0;
       xiw = 0;
       // センサレスへ移行するときのオフセットを取り除く
-      theta -= 8192; // (-90deg)
+      // theta -= 8192; // (-90deg)
     }
     Id_ref = 0;
     Iq_ref = FF_CURRENT;
